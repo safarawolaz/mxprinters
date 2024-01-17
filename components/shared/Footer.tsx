@@ -4,23 +4,23 @@ import { Button } from '../ui/button'
 
 const Footer = () => {
   return (
-    <section className='w-full min-h-screen bg-black  flex flex-col px-4 lg:px-10 py-20'>
-        <div className="md:flex justify-between items-center w-full py-10 border-b border-dashed border-gray-700">
+    <section className='w-full min-h-screen bg-black  flex flex-col px-4 lg:px-10 py-10 md:py-20'>
+        <div className="md:flex justify-between items-center w-full  py-10 border-b border-dashed border-gray-700">
             <div className="">
-                <h3 className='text-white font-semibold text-4xl tracking-wider'>PrintPark</h3>
+                <h3 className='text-white font-semibold text-2xl lg:text-3xl tracking-widest'>M<span className='text-orange-700'>X</span> Printers</h3>
                 <p className='text-base text-muted-foreground mt-4'>CopyRight &copy; 2023 <span className='text-red-800'>PrintPark</span>. All rights reserved.</p>
             </div>
             <div className="mt-8 md:mt-0">
                 <div className="">
-                    <div className="flex items-center gap-10">
-                        <p className='text-base font-semibold  text-white'>Follow on</p>
+                    <div className="flex items-center gap-4 sm:gap-10">
+                        <p className='text-base font-semibold  text-white whitespace-nowrap'>Follow on</p>
                         <FacebookIcon className='w-5 h-5 text-muted-foreground' />
                         <TwitterIcon className='w-5 h-5 text-muted-foreground' />
                         <InstagramIcon className='w-5 h-5 text-muted-foreground' />
                         <DribbbleIcon className='w-5 h-5 text-muted-foreground' />
                         <YoutubeIcon className='w-5 h-5 text-muted-foreground' />
                     </div>
-                    <div className="flex items-center gap-2 mt-4">
+                    <div className="hidden sm:flex items-center gap-2 mt-4">
                         <p className='text-base text-muted-foreground'>About</p>
                             <Dot className='text-muted-foreground text-2xl' />
                         <p className='text-base text-muted-foreground'>Contact</p>

@@ -18,23 +18,23 @@ const Blogs = () => {
                 <div className="h-[350px] w-full bg-gray-500 rounded-3xl"></div>
                 <div className="">
                     <h3 className='text-[20px] font-bold mt-4'>How Do You Know If Your Product Has Hail Damage?</h3>
-                    <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-10' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
+                    <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-6' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
                 </div>
                 <div className=""></div>
             </div>
-            <div className="">
+            <div className="mt-10 md:mt-0">
                 <div className="h-[350px] w-full bg-gray-500 rounded-3xl"></div>
                 <div className="">
                     <h3 className='text-[20px] font-bold mt-4'>How Do You Know If Your Product Has Hail Damage?</h3>
-                    <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-10' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
+                    <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-6' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
                 </div>
                 <div className=""></div>
             </div>
-            <div className="">
+            <div className="mt-10 md:mt-0">
                 <div className="h-[350px] w-full bg-gray-500 rounded-3xl"></div>
                 <div className="">
                     <h3 className='text-[20px] font-bold mt-4'>How Do You Know If Your Product Has Hail Damage?</h3>
-                    <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-10' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
+                    <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-6' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
                 </div>
                 <div className=""></div>
             </div>

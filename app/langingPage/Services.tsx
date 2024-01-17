@@ -4,8 +4,7 @@ import React from 'react'
 const Services = () => {
   return (
     <section
-        className='w-full min-h-screen bg-white  flex flex-col justify-center items-center px-4 lg:px-10 py-32'
-    >
+        className='w-full min-h-screen bg-white  flex flex-col justify-center items-center px-4 lg:px-10 py-20  lg:py-32'>
         <div className="flex items-center gap-2">
             <PawPrintIcon className='w-5 h-5 text-orange-700' />
             <p className='text-base font-bold uppercase text-orange-700'>what we do</p>
@@ -15,7 +14,7 @@ const Services = () => {
         <p className='text-base text-muted-foreground mt-4 text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dicta?</p>
 
         <div className="mt-10 sm:flex gap-10">
-            <div className="p-10 bg-orange-50 rounded-lg">
+            <div className="p-6 sm:p-10 bg-orange-50 rounded-lg">
                 <div className="flex justify-between">
                     <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full">
                         <ArrowRight className='w-7 h-7 text-orange-700' />
@@ -28,7 +27,7 @@ const Services = () => {
                 <h3 className='text-2xl font-bold mt-4'>Printing Services</h3>
                 <p className='text-base text-muted-foreground mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, recusandae...</p>
             </div>
-            <div className="p-10 mt-8 sm:mt-0 bg-orange-50 rounded-lg">
+            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-orange-50 rounded-lg">
                 <div className="flex justify-between">
                     <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full">
                         <ArrowRight className='w-7 h-7 text-orange-700' />
@@ -41,7 +40,7 @@ const Services = () => {
                 <h3 className='text-2xl font-bold mt-4'>Design Services</h3>
                 <p className='text-base text-muted-foreground mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, recusandae...</p>
             </div>
-            <div className="p-10 mt-8 sm:mt-0 bg-orange-50 rounded-lg">
+            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-orange-50 rounded-lg">
                 <div className="flex justify-between">
                     <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full">
                         <ArrowRight className='w-7 h-7 text-orange-700' />

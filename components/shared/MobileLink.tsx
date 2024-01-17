@@ -56,7 +56,9 @@ const MobileLink = () => {
                 <SheetDescription>
                     <div className="">
                         <SheetClose asChild>
-                            <Link href='/' className='text-3xl font-bold'>PrintPark</Link>
+                        <Link href='/' className="text-2xl font-bold">
+                            M<span className='text-orange-700'>X</span> Printers
+                        </Link>
                         </SheetClose>
                     </div>
                     <div className="flex flex-col space-y-4 items-start w-full text-lg mt-10 font-semibold">

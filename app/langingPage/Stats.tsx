@@ -6,14 +6,14 @@ const Stats = () => {
   return (
     <section className='w-full min-h-screen bg-orange-50  flex flex-col justify-center items-center px-4 lg:px-10 py-10'>
         <div className="mt-8 lg:mt-0 lg:flex gap-20 w-full h-full items-center">
-            <div className="w-full min-h-screen bg-black basis-1/2  rounded-3xl flex flex-col justify-center p-10 shadow-lg">
+            <div className="w-full lg:min-h-screen bg-black basis-1/2  rounded-3xl flex flex-col justify-center p-10 shadow-lg">
                 <div className="flex items-center gap-4">
                     <LucideBadgePercent className='w-7 h-7 text-orange-700' />
                     <p className='text-lg text-orange-700 font-bold uppercase'>
                         interesting numbers
                     </p>
                 </div>
-                <h3 className='text-4xl md:text-5xl text-white font-bold leading-[1.3] mt-8'>Proud of Our Past, Printing For The Future</h3>
+                <h3 className='text-4xl md:text-5xl text-white font-bold leading-[1.4] mt-8'>Proud of Our Past, Printing For The Future</h3>
                 <p className='text-base text-muted-foreground mt-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, ad!
                 </p>
                 <Button className='text-sm bg-orange-700 text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>START YOUR PROJECT</Button>

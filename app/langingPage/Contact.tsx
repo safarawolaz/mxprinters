@@ -12,7 +12,7 @@ const Contact = () => {
         <h3 className='text-3xl sm:text-4xl font-bold mt-8'>Contact Us & Learn More</h3>
         <p className='text-base text-muted-foreground mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, mollitia?</p>
         <div className="lg:flex w-full mt-10 gap-10">
-            <div className="basis-1/2 w-full  p-10 border border-dashed border-gray-300 rounded-3xl flex flex-col justify-center">
+            <div className="basis-1/2 w-full p-4 sm:p-10 border border-dashed border-gray-300 rounded-3xl flex flex-col justify-center">
                 <div className="flex justify-between items-center py-4 border-b border-dashed border-gray-300 ">
                     <p className='text-lg font-bold'>How do i get a quote from you?</p>
                     <Plus className='text-muted-foreground' />
@@ -31,7 +31,7 @@ const Contact = () => {
                 </div>
                 <Button className='text-sm font-bold tracking-wider mt-10 w-max hover:text-orange-700' variant='ghost'><ArrowRight className='mr-2 font-bold w-4 h-4 hover:text-orange-700' /> MORE QUESTIONS & ANSWERS</Button>
             </div>
-            <div className="basis-1/2 w-full bg-white p-10 rounded-3xl">
+            <div className="basis-1/2 w-full bg-white p-4 sm:p-10 rounded-3xl">
                 <form className="flex flex-col gap-8">
                     <div className="flex gap-8">
                         <div className="basis-1/4 flex items-center justify-between">
