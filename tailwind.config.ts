@@ -19,6 +19,11 @@ module.exports = {
       backgroundImage: {
         hero: 'url(/heroPrint.jpg)',
       },
+      fontFamily: {
+        dmSans: ['var(--font-dmSans)', 'sans-serif'],
+        syne: ['var(--font-syne)', 'sans-serif'],
+        inter: ['var(--font-inter)', 'sans-serif']
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

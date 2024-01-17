@@ -78,7 +78,7 @@ const Navbar = () => {
               
             </div>
             <div className="flex items-center gap-3">
-                <Button className='text-sm bg-orange-700 text-white font-semibold tracking-widest rounded-full' size='lg'>GET A QUOTE</Button>
+                <Button className='hidden sm:flex text-sm bg-orange-700 text-white font-semibold tracking-widest rounded-full' size='lg'>GET A QUOTE</Button>
                 <MobileLink />
             </div>
         </nav>  
