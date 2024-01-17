@@ -1,0 +1,46 @@
+import { Button } from '@/components/ui/button'
+import { LucideAlarmClock, LucideBadgePercent, Printer, UserCheck2 } from 'lucide-react'
+import React from 'react'
+
+const Stats = () => {
+  return (
+    <section className='w-full min-h-screen bg-orange-50  flex flex-col justify-center items-center px-4 lg:px-10 py-10'>
+        <div className="mt-8 lg:mt-0 lg:flex gap-20 w-full h-full items-center">
+            <div className="w-full min-h-screen bg-black basis-1/2  rounded-3xl flex flex-col justify-center p-10 shadow-lg">
+                <div className="flex items-center gap-4">
+                    <LucideBadgePercent className='w-7 h-7 text-orange-700' />
+                    <p className='text-lg text-orange-700 font-bold uppercase'>
+                        interesting numbers
+                    </p>
+                </div>
+                <h3 className='text-4xl md:text-5xl text-white font-bold leading-[1.3] mt-8'>Proud of Our Past, Printing For The Future</h3>
+                <p className='text-base text-muted-foreground mt-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, ad!
+                </p>
+                <Button className='text-sm bg-orange-700 text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>START YOUR PROJECT</Button>
+            </div>
+            <div className="mt-8 lg:mt-0 basis-1/2 w-full lg:flex gap-8">
+                <div className="flex flex-col gap-8">
+                    <div className="flex flex-col items-center justify-center p-8 bg-white rounded-3xl">
+                        <h3 className='text-5xl text-orange-500 font-bold'>8+</h3>
+                        <p className='text-base text-muted-foreground mt-8 text-center'>Years in the field of Printing Services</p>
+                        <LucideAlarmClock className='w-16 h-16 text-orange-500 mt-8' />
+                    </div>
+                    <div className="flex flex-col items-center justify-center p-8 bg-white rounded-3xl">
+                        <h3 className='text-5xl text-yellow-500 font-bold'>5.6m</h3>
+                        <p className='text-base text-muted-foreground mt-8 text-center'>Items printed by team members</p>
+                        <Printer  className='w-16 h-16 text-yellow-500 mt-8' />
+                    </div>
+                </div>
+                <div className="mt-8 lg:mt-0 flex flex-col items-center justify-center p-8 bg-white h-max self-center rounded-3xl">
+                        <h3 className='text-5xl text-green-400 font-bold'>2600</h3>
+                        <p className='text-base text-muted-foreground mt-8 text-center'>Active users for products created</p>
+                        <UserCheck2 className='w-16 h-16 text-green-400 mt-8' />
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default Stats
