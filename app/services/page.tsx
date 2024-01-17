@@ -8,7 +8,7 @@ import Section2 from './components/Section2'
 const page = () => {
   return (
     <section>
-        <div className="px-4 lg:px-10">
+        <div className="">
             <HeroSm header='Our Services#' subHeader='All Services Offered' />
         </div>
         <Section1 />
