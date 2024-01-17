@@ -62,8 +62,8 @@ const MobileLink = () => {
                     <div className="flex flex-col space-y-4 items-start w-full text-lg mt-10 font-semibold">
                         {
                             links.map(link => (
-                                <SheetClose asChild>
-                                    <Link href={link.url} key={link.id} className={cn('uppercase text-base font-semibold tracking-widest hover:translate-x-2 hover:text-orange-700 transition-all',
+                                <SheetClose asChild key={link.id} >
+                                    <Link href={link.url} className={cn('uppercase text-base font-semibold tracking-widest hover:translate-x-2 hover:text-orange-700 transition-all',
                                         {
                                             'text-orange-700 font-bold transition-all' : pathname === link.url
                                         }
