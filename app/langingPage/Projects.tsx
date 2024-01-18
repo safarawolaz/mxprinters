@@ -35,22 +35,22 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 h-[3100px] sm:h-[900px] gap-8 mt-8">
             <div className="col-span-1 row-span-2 bg-gray-400 rounded-3xl relative overflow-hidden">
-                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/proj1.jpg' fill alt='project 1 image' objectFit='cover' />
+                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-1.jpg' fill alt='project 1 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-1 bg-gray-400 rounded-3xl relative overflow-hidden">
-                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/proj2.jpg' fill alt='project 2 image' objectFit='cover' />
+                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-2.jpg' fill alt='project 2 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-2 bg-gray-400 rounded-3xl relative overflow-hidden">
-                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/proj3.jpg' fill alt='project 3 image' objectFit='cover' />
+                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-3.jpg' fill alt='project 3 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-2 bg-gray-400 rounded-3xl relative overflow-hidden">
-                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/proj4.jpg' fill alt='project 4 image' objectFit='cover' />
+                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-4.jpg' fill alt='project 4 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-1 bg-gray-400 rounded-3xl relative overflow-hidden">
-                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/proj5.jpg' fill alt='project 5 image' objectFit='cover' />
+                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-5.jpg' fill alt='project 5 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-1 bg-gray-400 rounded-3xl relative overflow-hidden">
-             <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/proj6.jpg' fill alt='project 6 image' objectFit='cover' />
+             <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-6.jpg' fill alt='project 6 image' objectFit='cover' />
             </div>
         </div>
     </section>

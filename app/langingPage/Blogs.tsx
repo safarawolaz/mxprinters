@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { ArrowBigRight, ArrowRight, LucideAward } from 'lucide-react'
+import Image from 'next/image'
 import React from 'react'
 
 const Blogs = () => {
@@ -15,7 +16,9 @@ const Blogs = () => {
         </div>
         <div className="mt-10 md:flex gap-4 md:gap-8">
             <div className="">
-                <div className="h-[350px] w-full bg-gray-500 rounded-3xl"></div>
+                <div className="h-[350px] bg-gray-500 rounded-3xl relative">
+                    <Image src='/news-11.jpg' fill alt='blog image' objectFit='cover'  />
+                </div>
                 <div className="">
                     <h3 className='text-[20px] font-bold mt-4'>How Do You Know If Your Product Has Hail Damage?</h3>
                     <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-6' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
@@ -23,7 +26,9 @@ const Blogs = () => {
                 <div className=""></div>
             </div>
             <div className="mt-10 md:mt-0">
-                <div className="h-[350px] w-full bg-gray-500 rounded-3xl"></div>
+                <div className="h-[350px]  bg-gray-500 rounded-3xl relative">
+                    <Image src='/news-12.jpg' fill alt='blog image' objectFit='cover' />
+                </div>
                 <div className="">
                     <h3 className='text-[20px] font-bold mt-4'>How Do You Know If Your Product Has Hail Damage?</h3>
                     <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-6' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
@@ -31,7 +36,9 @@ const Blogs = () => {
                 <div className=""></div>
             </div>
             <div className="mt-10 md:mt-0">
-                <div className="h-[350px] w-full bg-gray-500 rounded-3xl"></div>
+                <div className="h-[350px]  bg-gray-500 rounded-3xl relative">
+                    <Image src='/news-13.jpg' fill alt='blog image' objectFit='cover' />
+                </div>
                 <div className="">
                     <h3 className='text-[20px] font-bold mt-4'>How Do You Know If Your Product Has Hail Damage?</h3>
                     <Button className='uppercase text-sm font-semibold tracking-wider flex items-center mt-6' variant='ghost'><ArrowRight className='h-5 w-5 text-orange-700 mr-2' /> Continue Reading</Button>
