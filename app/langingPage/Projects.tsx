@@ -44,10 +44,10 @@ const Projects = () => {
                 <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-3.jpg' fill alt='project 3 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-2 bg-gray-400 rounded-3xl relative overflow-hidden">
-                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-4.jpg' fill alt='project 4 image' objectFit='cover' />
+                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-5.jpg' fill alt='project 4 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-1 bg-gray-400 rounded-3xl relative overflow-hidden">
-                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-5.jpg' fill alt='project 5 image' objectFit='cover' />
+                <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-4.jpg' fill alt='project 5 image' objectFit='cover' />
             </div>
             <div className="col-span-1 row-span-1 bg-gray-400 rounded-3xl relative overflow-hidden">
              <Image className='hover:scale-110 transition-all duration-300 cursor-pointer' src='/project-6.jpg' fill alt='project 6 image' objectFit='cover' />

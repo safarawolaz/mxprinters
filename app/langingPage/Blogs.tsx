@@ -16,7 +16,7 @@ const Blogs = () => {
         </div>
         <div className="mt-10 md:flex gap-4 md:gap-8">
             <div className="">
-                <div className="h-[350px] bg-gray-500 rounded-3xl relative">
+                <div className="h-[350px] bg-gray-500 rounded-3xl relative overflow-hidden">
                     <Image src='/news-11.jpg' fill alt='blog image' objectFit='cover'  />
                 </div>
                 <div className="">
@@ -26,7 +26,7 @@ const Blogs = () => {
                 <div className=""></div>
             </div>
             <div className="mt-10 md:mt-0">
-                <div className="h-[350px]  bg-gray-500 rounded-3xl relative">
+                <div className="h-[350px]  bg-gray-500 rounded-3xl relative overflow-hidden">
                     <Image src='/news-12.jpg' fill alt='blog image' objectFit='cover' />
                 </div>
                 <div className="">
@@ -36,7 +36,7 @@ const Blogs = () => {
                 <div className=""></div>
             </div>
             <div className="mt-10 md:mt-0">
-                <div className="h-[350px]  bg-gray-500 rounded-3xl relative">
+                <div className="h-[350px]  bg-gray-500 rounded-3xl relative overflow-hidden">
                     <Image src='/news-13.jpg' fill alt='blog image' objectFit='cover' />
                 </div>
                 <div className="">
