@@ -5,7 +5,7 @@ import React from 'react'
 
 const Categories = () => {
   return (
-    <section className='w-full min-h-screen bg-[#fff3f3]  flex flex-col justify-center items-center px-4 lg:px-10 py-20'>
+    <section className='w-full min-h-screen bg-yellow-50  flex flex-col justify-center items-center px-4 lg:px-10 py-20'>
         <div className="flex items-center gap-2">
           <LucideBookOpen className='w-5 h-5 text-[#db3a35]' />
           <p className='text-base font-bold uppercase text-[#db3a35]'>categories</p>

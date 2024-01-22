@@ -4,7 +4,7 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <section className='w-full min-h-screen bg-[#fff3f3]  flex flex-col justify-center items-center px-4 lg:px-10 py-10'>
+    <section className='w-full min-h-screen bg-yellow-50  flex flex-col justify-center items-center px-4 lg:px-10 py-10'>
         <div className="mt-8 lg:mt-0 lg:flex gap-20 w-full h-full items-center">
             <div className="w-full lg:min-h-screen bg-[#05010f] basis-1/2  rounded-3xl flex flex-col justify-center p-10 shadow-lg">
                 <div className="flex items-center gap-4">

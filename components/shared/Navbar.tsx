@@ -39,7 +39,7 @@ const Navbar = () => {
     const pathname = usePathname()
   return (
     <header className='sticky top-0 left-0 right-0 z-50'>
-        <div className='hidden lg:flex items-center py-2 justify-between px-10 bg-[#fff3f3]'>
+        <div className='hidden lg:flex items-center py-2 justify-between px-10 bg-yellow-50'>
             <div className="flex items-center">
                 <PhoneIncoming className='w-5 h-5 mr-2'  />
                <p className='text-[##0e0322] font-semibold'> Printing Sales: <span className='text-muted-foreground font-semibold'>(+27)-79-614-3665</span>  Service:<span className='text-muted-foreground font-semibold'> (+27) 83-756-8968</span> </p>

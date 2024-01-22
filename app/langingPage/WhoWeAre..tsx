@@ -16,7 +16,7 @@ const WhoWeAre = () => {
                     <p className='uppercase text-[#db3a35] font-base font-bold'>Who We Are</p>
                 </div>
                 <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-10 leading-[1.3]'>Leading Printing Agency in Mbombela</h3>
-                <p className='text-base text-muted-foreground mt-8 leading-[1.9]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nihil molestias nobis iusto obcaecati placeat eius magnam eum hic fuga molestiae, libero optio a ab fugit quis reprehenderit suscipit blanditiis voluptate inventore non magni quidem adipisci et! Vero, quibusdam maxime.</p>
+                <p className='text-base text-muted-foreground mt-8 leading-[1.9]'>Welcome to Makhosi Distributors, where innovation meets print. Elevate your brand with our cutting-edge printing solutions that transform ideas into tangible, vibrant realities. Discover the power of print with us!</p>
                 <Button className='text-sm bg-[#db3a35] text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>MORE ABOUT US</Button>
                 <div className="mt-10">
                     <div className="flex items-center gap-2 mt-4">

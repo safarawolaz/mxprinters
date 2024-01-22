@@ -14,9 +14,9 @@ const Services = () => {
         <p className='text-base text-muted-foreground mt-4 text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dicta?</p>
 
         <div className="mt-10 sm:flex gap-10">
-            <div className="p-6 sm:p-10 bg-[#fff3f3] rounded-lg">
+            <div className="p-6 sm:p-10 bg-yellow-50 rounded-lg">
                 <div className="flex justify-between">
-                    <div className="flex items-center justify-center w-12 h-12 bg-[#fadede] rounded-full">
+                    <div className="flex items-center justify-center w-12 h-12 bg-yellow-50 rounded-full">
                         <ArrowRight className='w-7 h-7 text-[#db3a35]' />
                     </div>
                     <div className="flex items-center justify-center w-20 h-20 bg-white rounded-full ">
@@ -27,9 +27,9 @@ const Services = () => {
                 <h3 className='text-2xl text-[#0e0322] font-bold mt-4'>Printing Services</h3>
                 <p className='text-base text-muted-foreground mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, recusandae...</p>
             </div>
-            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-[#fff3f3] rounded-lg">
+            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-yellow-50 rounded-lg">
                 <div className="flex justify-between">
-                    <div className="flex items-center justify-center w-12 h-12 bg-[#fadede] rounded-full">
+                    <div className="flex items-center justify-center w-12 h-12 bg-yellow-50 rounded-full">
                         <ArrowRight className='w-7 h-7 text-[#db3a35]' />
                     </div>
                     <div className="flex items-center justify-center w-20 h-20 bg-white rounded-full ">
@@ -40,9 +40,9 @@ const Services = () => {
                 <h3 className='text-2xl text-[#0e0322] font-bold mt-4'>Design Services</h3>
                 <p className='text-base text-muted-foreground mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, recusandae...</p>
             </div>
-            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-[#fff3f3] rounded-lg">
+            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-yellow-50 rounded-lg">
                 <div className="flex justify-between">
-                    <div className="flex items-center justify-center w-12 h-12 bg-[#fadede] rounded-full">
+                    <div className="flex items-center justify-center w-12 h-12 bg-yellow-50 rounded-full">
                         <ArrowRight className='w-7 h-7 text-[#db3a35]' />
                     </div>
                     <div className="flex items-center justify-center w-20 h-20 bg-white rounded-full ">
