@@ -3,10 +3,10 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <section className='w-full min-h-screen bg-black  flex flex-col justify-center items-center px-4 lg:px-10 py-20'>
+    <section className='w-full min-h-screen bg-[#05010f]  flex flex-col justify-center items-center px-4 lg:px-10 py-20'>
         <div className="flex items-center gap-2">
-            <PawPrintIcon className='w-5 h-5 text-orange-700' />
-            <p className='text-base font-bold uppercase text-orange-700'>feedback</p>
+            <PawPrintIcon className='w-5 h-5 text-[#e6413b]' />
+            <p className='text-base font-bold uppercase text-[#e6413b]'>feedback</p>
         </div>
         <h3 className='text-3xl sm:text-4xl text-white font-bold mt-8'>Feedback From Our Customers</h3>
         <p className='text-base text-muted-foreground mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, mollitia?</p>

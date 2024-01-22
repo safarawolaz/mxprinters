@@ -1,4 +1,6 @@
-import { ArrowRight, Dot, DribbbleIcon, FacebookIcon, InstagramIcon, LucideCheckCircle2, MailIcon, TwitterIcon, YoutubeIcon } from 'lucide-react'
+import { ArrowRight, Dot, DribbbleIcon, FacebookIcon, InstagramIcon, LucideCheckCircle2, MailIcon, TwitterIcon, XIcon, YoutubeIcon } from 'lucide-react'
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { Button } from '../ui/button'
 
@@ -7,15 +9,17 @@ const Footer = () => {
     <section className='w-full min-h-screen bg-black  flex flex-col px-4 lg:px-10 py-10 md:py-20'>
         <div className="md:flex justify-between items-center w-full  py-10 border-b border-dashed border-gray-700">
             <div className="">
-                <h3 className='text-white font-semibold text-2xl lg:text-3xl tracking-widest'>M<span className='text-orange-700'>X</span> Printers</h3>
-                <p className='text-base text-muted-foreground mt-4'>CopyRight &copy; 2023 <span className='text-red-800'>PrintPark</span>. All rights reserved.</p>
+                <Link href='/' className="h-[48px] w-60 relative z-10">
+                    <Image src="/makhosi-logo.png" fill alt="logo"  />
+                </Link>
+                <p className='text-base text-muted-foreground mt-4'>CopyRight &copy; 2023 <span className='text-red-800'>Makhosi</span>. All rights reserved.</p>
             </div>
             <div className="mt-8 md:mt-0">
                 <div className="">
                     <div className="flex items-center gap-4 sm:gap-10">
                         <p className='text-base font-semibold  text-white whitespace-nowrap'>Follow on</p>
                         <FacebookIcon className='w-5 h-5 text-muted-foreground' />
-                        <TwitterIcon className='w-5 h-5 text-muted-foreground' />
+                        <XIcon className='w-5 h-5 text-muted-foreground' />
                         <InstagramIcon className='w-5 h-5 text-muted-foreground' />
                         <DribbbleIcon className='w-5 h-5 text-muted-foreground' />
                         <YoutubeIcon className='w-5 h-5 text-muted-foreground' />
@@ -34,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="mt-10 grid  grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-20">
             <div className="">
-                <div className="h-12 w-12 bg-orange-400 flex items-center justify-center rounded-full">
+                <div className="h-12 w-12 bg-[#e6413b] flex items-center justify-center rounded-full">
                     <MailIcon className='text-white h-8 w-8' />
                 </div>
                 <h3 className='text-[20px] text-white font-bold tracking-wider mt-4'>Newsletter</h3>
@@ -70,7 +74,7 @@ const Footer = () => {
                     <li className='text-base text-muted-foreground flex items-center gap-2'><LucideCheckCircle2 className='text-muted-foreground w-4 h-4' />Garment Printing</li>
                 </ul>
             </div>
-            <div className="bg-orange-400 rounded-3xl p-10">
+            <div className="bg-[#e6413b] rounded-3xl p-10">
                 <h3 className='text-base text-white font-bold tracking-widest'>PROMOTION</h3>
                 <h3 className='text-2xl text-white font-bold leading-[1.5] mt-4 tracking-wider'>Everything to Market Your Business</h3>
                 <Button className='text-sm font-bold tracking-wider rounded-full mt-6' size='lg'>START TODAY</Button>

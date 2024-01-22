@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { LucideActivity, LucideDiamond, Milestone, UserCircle } from 'lucide-react'
+import { LucideActivity, LucideDiamond, Milestone, UserCircle, UserPlus2 } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
@@ -12,28 +12,28 @@ const WhoWeAre = () => {
         <div className="mt-8 lg:mt-0 basis-1/2 flex flex-col">
             <div className="">
                 <div className="flex items-center gap-2">
-                    <UserCircle  className='w-5 h-5 text-orange-700' />
-                    <p className='uppercase text-orange-700 font-base font-bold'>Who We Are</p>
+                    <UserPlus2  className='w-5 h-5 text-[#db3a35]' />
+                    <p className='uppercase text-[#db3a35] font-base font-bold'>Who We Are</p>
                 </div>
-                <h3 className='text-3xl sm:text-4xl font-bold mt-10 leading-[1.3]'>Leading Printing Agency in Mbombela</h3>
+                <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-10 leading-[1.3]'>Leading Printing Agency in Mbombela</h3>
                 <p className='text-base text-muted-foreground mt-8 leading-[1.9]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nihil molestias nobis iusto obcaecati placeat eius magnam eum hic fuga molestiae, libero optio a ab fugit quis reprehenderit suscipit blanditiis voluptate inventore non magni quidem adipisci et! Vero, quibusdam maxime.</p>
-                <Button className='text-sm bg-orange-700 text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>MORE ABOUT US</Button>
+                <Button className='text-sm bg-[#db3a35] text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>MORE ABOUT US</Button>
                 <div className="mt-10">
                     <div className="flex items-center gap-2 mt-4">
-                        <Milestone /> 
-                        <Button className='text-sm font-bold border rounded-full' variant='ghost'>
+                        <Milestone className='text-[#0e0322]' /> 
+                        <Button className='text-sm text-[#0e0322] font-bold border rounded-full' variant='ghost'>
                             OUR MISSION AND PROMISE TO YOU
                         </Button>
                     </div>
                     <div className="flex items-center gap-2 mt-4">
-                        <LucideActivity /> 
-                        <Button className='text-sm font-bold border rounded-full' variant='ghost'>
+                        <LucideActivity className='text-[#0e0322]' /> 
+                        <Button className='text-sm text-[#0e0322] font-bold border rounded-full' variant='ghost'>
                             OBLIGATION VISION AND VALUES
                         </Button>
                     </div>
                     <div className="flex items-center gap-2 mt-4">
-                        <LucideDiamond /> 
-                        <Button className='text-sm font-bold border rounded-full' variant='ghost'>
+                        <LucideDiamond className='text-[#0e0322]' /> 
+                        <Button className='text-sm text-[#0e0322] font-bold border rounded-full' variant='ghost'>
                             GUIDING PRINCIPLES
                         </Button>
                     </div>

@@ -39,10 +39,10 @@ const Navbar = () => {
     const pathname = usePathname()
   return (
     <header className='sticky top-0 left-0 right-0 z-50'>
-        <div className='hidden lg:flex items-center py-5 justify-between px-10 bg-[#fff3f3]'>
+        <div className='hidden lg:flex items-center py-2 justify-between px-10 bg-[#fff3f3]'>
             <div className="flex items-center">
                 <PhoneIncoming className='w-5 h-5 mr-2'  />
-               <p className='text-[#2b2424]'> Printing Solutions Sales: <span className='text-muted-foreground font-semibold'>(+41)-888-56-7890</span>  Service:<span className='text-muted-foreground font-semibold'> 1800 123 4567</span> </p>
+               <p className='text-[##0e0322] font-semibold'> Printing Sales: <span className='text-muted-foreground font-semibold'>(+27)-79-614-3665</span>  Service:<span className='text-muted-foreground font-semibold'> (+27) 83-756-8968</span> </p>
             </div>
             <div className="flex gap-2 items-center">
                 <p className='font-semibold'>Follow on</p>
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
         <nav className='flex items-center py-6 lg:py-0 px-4 lg:px-10 justify-between bg-white shadow-lg sticky top-0 left-0 right-0'>
             <div className="flex gap-4  lg:gap-10 items-center">
-                <Link href='/' className="text-2xl sm:text-3xl font-bold tracking-widest h-[48px] w-60 relative">
+                <Link href='/' className="h-[48px] w-60 relative z-10">
                     <Image src="/makhosi-logo.png" fill alt="logo"  />
                 </Link>
                 <ul className='hidden lg:flex gap-4 xl:gap-8 items-center'>
@@ -65,7 +65,7 @@ const Navbar = () => {
                             'border-b-2 border-[#dd0f08]  transition-all' : pathname === link.url  ,
                             }
                         )}>
-                        <Link href={link.url} className={cn('uppercase font-semibold text-base tracking-widest flex items-center text-[#0e0322] gap-1 hover:text-[#dd0f08] transition-all', 
+                        <Link href={link.url} className={cn('uppercase font-bold text-base tracking-widest flex items-center text-[#0e0322] gap-1 hover:text-[#dd0f08] transition-all', 
                             {
                             'text-[#dd0f08] font-bold transition-all' : pathname === link.url, 
                             }) }>

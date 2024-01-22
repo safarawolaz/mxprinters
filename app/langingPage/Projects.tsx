@@ -7,20 +7,20 @@ const Projects = () => {
   return (
     <section className='w-full min-h-screen bg-white  flex flex-col justify-center px-4 lg:px-10 py-20'>
         <div className="flex items-center gap-2">
-            <LucideAward className='w-6 h-6 text-orange-700' />
-            <p className='uppercase text-base text-orange-700 font-bold'>projects</p>
+            <LucideAward className='w-6 h-6 text-[#db3a35]' />
+            <p className='uppercase text-base text-[#db3a35] font-bold'>projects</p>
         </div>
         <div className="mt-2 flex justify-between items-center">
             <div>
-                <h3 className='text-3xl sm:text-4xl font-bold'>Recent Projects</h3>
+                <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold'>Recent Projects</h3>
             </div>
             <div className=''>
-                <Button className='text-sm bg-orange-700 text-white font-semibold rounded-full mt-8 w-max tracking-tight my-auto' size='lg' >MORE PROJECTS</Button>
+                <Button className='text-sm bg-[#db3a35] text-white font-semibold rounded-full mt-8 w-max tracking-tight my-auto' size='lg' >MORE PROJECTS</Button>
             </div>
         </div>
         <div className="mt-10">
             <ul className='hidden lg:flex items-center justify-between gap-4 text-center'>
-                <li className='text-[20px]  font-bold text-orange-700'>All Categories</li>
+                <li className='text-[20px]  font-bold text-[#db3a35]'>All Categories</li>
                 <li><StarIcon className='w-4 h-4 text-muted-foreground' /></li>
                 <li className='text-[20px] font-bold text-muted-foreground'>Garment Printing</li>
                 <li><StarIcon className='w-4 h-4 text-muted-foreground' /></li>
