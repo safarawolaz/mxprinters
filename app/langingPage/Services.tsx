@@ -11,10 +11,10 @@ const Services = () => {
         </div>
         <h3 className='text-3xl sm:text-4xl font-bold mt-4 tracking-wide  text-center text-[#0e0322]'>Quality Printing & </h3>
         <h3 className='text-3xl sm:text-4xl font-bold mt-4  tracking-wide  text-center text-[#0e0322] mt-[-0px]'>Promotional Products Company </h3>
-        <p className='text-base text-muted-foreground mt-4 text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dicta?</p>
+        <p className='text-base text-muted-foreground mt-4 text-center'>Elevate your brand, captivate your audience, and bring your ideas to life with <br /> our exceptional design & printing services</p>
 
         <div className="mt-10 sm:flex gap-10">
-            <div className="p-6 sm:p-10 bg-yellow-50 rounded-lg">
+            <div className="p-6 sm:p-10 bg-yellow-50 rounded-lg basis-1/3">
                 <div className="flex justify-between">
                     <div className="flex items-center justify-center w-12 h-12 bg-yellow-50 rounded-full">
                         <ArrowRight className='w-7 h-7 text-[#db3a35]' />
@@ -25,9 +25,9 @@ const Services = () => {
                 </div>
                 <p className='text-base font-semibold text-[#db3a35] mt-4'>OFFER</p>
                 <h3 className='text-2xl text-[#0e0322] font-bold mt-4'>Printing Services</h3>
-                <p className='text-base text-muted-foreground mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, recusandae...</p>
+                <p className='text-base text-muted-foreground mt-4'>From business cards to large-format banners, our attention to detail and precision craftsmanship set us apart.</p>
             </div>
-            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-yellow-50 rounded-lg">
+            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-yellow-50 rounded-lg basis-1/3">
                 <div className="flex justify-between">
                     <div className="flex items-center justify-center w-12 h-12 bg-yellow-50 rounded-full">
                         <ArrowRight className='w-7 h-7 text-[#db3a35]' />
@@ -38,9 +38,9 @@ const Services = () => {
                 </div>
                 <p className='text-base font-semibold text-[#db3a35] mt-4'>OFFER</p>
                 <h3 className='text-2xl text-[#0e0322] font-bold mt-4'>Design Services</h3>
-                <p className='text-base text-muted-foreground mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, recusandae...</p>
+                <p className='text-base text-muted-foreground mt-4'>We transform concepts into visually striking designs that perfectly complement your brand identity.</p>
             </div>
-            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-yellow-50 rounded-lg">
+            <div className="p-6 sm:p-10 mt-8 sm:mt-0 bg-yellow-50 rounded-lg basis-1/3">
                 <div className="flex justify-between">
                     <div className="flex items-center justify-center w-12 h-12 bg-yellow-50 rounded-full">
                         <ArrowRight className='w-7 h-7 text-[#db3a35]' />
@@ -51,7 +51,7 @@ const Services = () => {
                 </div>
                 <p className='text-base font-semibold text-[#db3a35] mt-4'>OFFER</p>
                 <h3 className='text-2xl text-[#0e0322] font-bold mt-4'>Promotional Products</h3>
-                <p className='text-base text-muted-foreground mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, recusandae...</p>
+                <p className='text-base text-muted-foreground mt-4'>Elevate your brand with our extensive range of promotional products. From branded merchandise to promotional giveaways.</p>
             </div>
             
         </div>

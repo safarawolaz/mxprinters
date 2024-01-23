@@ -10,7 +10,7 @@ const Contact = () => {
             <p className='text-base font-bold uppercase text-[#e6413b]'>get in touch</p>
         </div>
         <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-8'>Contact Us & Learn More</h3>
-        <p className='text-base text-muted-foreground mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, mollitia?</p>
+        <p className='text-base text-muted-foreground mt-8'>Contact us now so we can give you the best experience</p>
         <div className="lg:flex w-full mt-10 gap-10">
             <div className="basis-1/2 w-full p-4 sm:p-10 border border-dashed border-gray-300 rounded-3xl flex flex-col justify-center">
                 <div className="flex justify-between items-center py-4 border-b border-dashed border-gray-300 ">

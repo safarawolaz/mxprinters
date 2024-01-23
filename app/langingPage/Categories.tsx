@@ -11,11 +11,11 @@ const Categories = () => {
           <p className='text-base font-bold uppercase text-[#db3a35]'>categories</p>
         </div>
         <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-8'>The Complete Printing Solutions</h3>
-        <p className='text-base text-muted-foreground text-center mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, mollitia?</p>
+        <p className='text-base text-muted-foreground text-center mt-8'>Some of the products we offer</p>
       <div className="mt-12 grid lg:grid-cols-2 xl:grid-cols-4 gap-4 w-full">
         <div className="bg-white p-10 rounded-3xl hover:translate-y-[-16px] transition-all  duration-500 cursor-pointer">
           <h3 className='text-2xl text-[#0e0322] font-bold text-center'>Banners</h3>
-          <p className='text-base text-muted-foreground text-center mt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <p className='text-base text-muted-foreground text-center mt-6'></p>
           <div className="mt-6  flex justify-center">
             <div className="w-44 h-44 bg-gray-400 rounded-full relative overflow-hidden">
               <Image src='/categories-1.jpg' fill alt='blog image' objectFit='cover' />
@@ -29,7 +29,7 @@ const Categories = () => {
         </div>
         <div className="bg-white p-10 rounded-3xl hover:translate-y-[-16px] transition-all  duration-500 cursor-pointer">
           <h3 className='text-2xl text-[#0e0322] font-bold text-center'>Booklets</h3>
-          <p className='text-base text-muted-foreground text-center mt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <p className='text-base text-muted-foreground text-center mt-6'></p>
           <div className="mt-6  flex justify-center">
             <div className="w-44 h-44 bg-gray-400 rounded-full relative overflow-hidden">
               <Image src='/categories-2.jpg' fill alt='blog image' objectFit='cover' />
@@ -43,7 +43,7 @@ const Categories = () => {
         </div>
         <div className="bg-white p-10 rounded-3xl hover:translate-y-[-16px] transition-all  duration-500 cursor-pointer">
           <h3 className='text-2xl text-[#0e0322] font-bold text-center'>Business Cards</h3>
-          <p className='text-base text-muted-foreground text-center mt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <p className='text-base text-muted-foreground text-center mt-6'></p>
           <div className="mt-6  flex justify-center">
             <div className="w-44 h-44 bg-gray-400 rounded-full relative overflow-hidden">
               <Image src='/categories-3.jpg' fill alt='blog image' objectFit='cover' />
@@ -57,7 +57,7 @@ const Categories = () => {
         </div>
         <div className="bg-white p-10 rounded-3xl hover:translate-y-[-16px] transition-all  duration-500 cursor-pointer">
           <h3 className='text-2xl text-[#0e0322] font-bold text-center'>Calenders</h3>
-          <p className='text-base text-muted-foreground text-center mt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <p className='text-base text-muted-foreground text-center mt-6'></p>
           <div className="mt-6  flex justify-center">
             <div className="w-44 h-44 bg-gray-400 rounded-full relative overflow-hidden">
               <Image src='/categories-4.jpg' fill alt='blog image' objectFit='cover' />

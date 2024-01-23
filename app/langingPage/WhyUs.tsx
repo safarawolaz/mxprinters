@@ -9,25 +9,25 @@ const WhyUs = () => {
             <p className='text-base font-bold uppercase text-[#db3a35]'>our attributes</p>
         </div>
         <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-8'>Deliver More Than You Expect</h3>
-        <p className='text-base text-muted-foreground mt-8 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, mollitia?</p>
+        <p className='text-base text-muted-foreground mt-8 text-center'>Some of the reasons to choose us</p>
         <div className="mt-10 md:flex gap-8 w-full items-center">
             <div className="basis-1/4  w-full">
                 <div className="">
-                    <h3 className='text-[20px] font-bold text-center md:text-right'>Professionalism</h3>
+                    <h3 className='text-[20px] font-bold text-center md:text-right'>Quality Assurance</h3>
                     <p className='text-base text-muted-foreground text-center md:text-right'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Our commitment to delivering exceptional print quality, creative design, and promotional excellence is unwavering
                     </p>
                 </div>
                 <div className="mt-20">
-                    <h3 className='text-[20px] font-bold text-center md:text-right'>Competitive Prices</h3>
+                    <h3 className='text-[20px] font-bold text-center md:text-right'>Timely Delivery</h3>
                     <p className='text-base text-muted-foreground text-center md:text-right'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    We understand the importance of deadlines. Count on us to deliver your prints, designs, and promotional products on time, every time.
                     </p>
                 </div>
                 <div className="mt-20">
-                    <h3 className='text-[20px] font-bold text-center md:text-right'>Professionalism</h3>
-                    <p className='text-base text-muted-foreground text-right'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <h3 className='text-[20px] font-bold text-center md:text-right'>Innovation</h3>
+                    <p className='text-base text-muted-foreground text-center md:text-right'>
+                    Embrace the latest in printing, design, and promotional technology. We stay ahead of the curve to bring you cutting-edge solutions.
                     </p>
                 </div>
             </div>
@@ -36,21 +36,21 @@ const WhyUs = () => {
             </div>
             <div className="mt-20 md:mt-0 basis-1/4 w-full">
             <div className="">
-                    <h3 className='text-[20px] font-bold text-center md:text-left'>Quality Service</h3>
+                    <h3 className='text-[20px] font-bold text-center md:text-left'>Dedicated Support: </h3>
                     <p className='text-base text-muted-foreground text-center md:text-left'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Our team is here for you at every step. From concept to completion, we provide personalized support to ensure your vision is realized.
                     </p>
                 </div>
                 <div className="mt-20">
                     <h3 className='text-[20px] font-bold text-center md:text-left'>Cost Effective</h3>
                     <p className='text-base text-muted-foreground text-center md:text-left'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Our products are cost effective. We ensure we provide you the best quality without  breaking your bank.
                     </p>
                 </div>
                 <div className="mt-20">
-                    <h3 className='text-[20px] font-bold text-center md:text-left'>Customization</h3>
+                    <h3 className='text-[20px] font-bold text-center md:text-left'>Comprehensive Services</h3>
                     <p className='text-base text-muted-foreground text-center md:text-left'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    From print to design to promotional products, we offer a one-stop solution for all your needs.
                     </p>
                 </div>
             </div>

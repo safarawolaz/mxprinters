@@ -5,8 +5,8 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className='w-full min-h-screen bg-white rounded-3xl flex flex-col items-center justify-center bg-hero bg-fixed bg-cover bg-center overflow-hidden'>
-        <h1 className='text-5xl sm:text-7xl text-white font-bold  text-center'>Leader in Total</h1>
-        <h1 className='text-5xl sm:text-7xl text-white font-bold text-center'>Printing Services</h1>
+        <h1 className='text-5xl sm:text-7xl text-white font-bold  text-center'>Leader in total</h1>
+        <h1 className='text-5xl sm:text-7xl text-white font-bold text-center'>printing services</h1>
         <p className='mt-10 text-lg text-gray-200 max-w-sm text-center'>
           Rendering effective and qualitative printing services at all times.
         </p>
