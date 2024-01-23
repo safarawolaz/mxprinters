@@ -5,7 +5,7 @@ type heroSmprops = {
 }
 const HeroSm = ({header, subHeader}: heroSmprops ) => {
   return (
-    <section className='min-h-[50vh]  lg:px-10 bg-orange-200 flex flex-col items-center justify-center rounded-3xl'>
+    <section className='min-h-[50vh]  lg:px-10 bg-yellow-50 flex flex-col items-center justify-center rounded-3xl'>
         <h1 className="text-5xl font-bold text-gray-800 tracking-tight text-center">
             {header}
         </h1>

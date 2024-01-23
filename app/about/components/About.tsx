@@ -1,13 +1,13 @@
 import { Button } from '@/components/ui/button'
-import { LucideActivity, LucideDiamond, Milestone, UserCircle, UserPlus2 } from 'lucide-react'
+import { LucideActivity, LucideDiamond, Milestone, UserPlus2 } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
-const WhoWeAre = () => {
+const About = () => {
   return (
     <section className='w-full min-h-screen bg-white  lg:flex justify-center items-center px-4 lg:px-10 py-20 gap-10'>
         <div className="basis-1/2 relative rounded-3xl overflow-hidden">
-            <Image src='/printAbout.jpg' width={2000} height={1859} alt='about image' objectFit='cover' /> 
+            <Image src='/abtImg.jpg' width={2000} height={1814} alt='about image' objectFit='cover' /> 
         </div>
         <div className="mt-8 lg:mt-0 basis-1/2 flex flex-col">
             <div className="">
@@ -45,4 +45,4 @@ const WhoWeAre = () => {
   )
 }
 
-export default WhoWeAre
+export default About

@@ -10,7 +10,7 @@ const Hero = () => {
         <p className='mt-10 text-lg text-gray-200 max-w-sm text-center'>
           Rendering effective and qualitative printing services at all times.
         </p>
-        <Button className='text-sm bg-orange-700 text-white font-semibold tracking-widest rounded-full mt-8' size='lg'>
+        <Button className='text-sm bg-[#dd0f08] py-6 px-12  text-white font-semibold tracking-widest rounded-full mt-8' size='lg'>
           LEARN MORE
         </Button>
     </section>

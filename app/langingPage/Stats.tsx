@@ -16,7 +16,7 @@ const Stats = () => {
                 <h3 className='text-4xl md:text-5xl text-white font-bold leading-[1.4] mt-8'>Our numbers speak for themselves, giving value to our clients allways</h3>
                 <p className='text-base text-muted-foreground mt-8'>We allways strive to exceed our clients expectations by providing value for money
                 </p>
-                <Button className='text-sm bg-[#e6413b] text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>START YOUR PROJECT</Button>
+                <Button className='text-sm bg-[#e6413b]  text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>START YOUR PROJECT</Button>
             </div>
             <div className="mt-8 lg:mt-0 basis-1/2 w-full lg:flex gap-8">
                 <div className="flex flex-col gap-8">
