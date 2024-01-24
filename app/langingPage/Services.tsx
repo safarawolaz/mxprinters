@@ -10,7 +10,7 @@ const Services = () => {
             <p className='text-base font-bold uppercase text-[#db3a35]'>what we do</p>
         </div>
         <h3 className='text-3xl sm:text-4xl font-bold mt-4 tracking-wide  text-center text-[#0e0322]'>Quality Printing & </h3>
-        <h3 className='text-3xl sm:text-4xl font-bold mt-4  tracking-wide  text-center text-[#0e0322] mt-[-0px]'>Promotional Products Company </h3>
+        <h3 className='text-3xl sm:text-4xl font-bold   tracking-wide  text-center text-[#0e0322] mt-0'>Promotional Products Company </h3>
         <p className='text-base text-muted-foreground mt-4 text-center'>Elevate your brand, captivate your audience, and bring your ideas to life with <br /> our exceptional design & printing services</p>
 
         <div className="mt-10 sm:flex gap-10">

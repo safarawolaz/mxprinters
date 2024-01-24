@@ -7,7 +7,7 @@ const WhoWeAre = () => {
   return (
     <section className='w-full min-h-screen bg-white  lg:flex justify-center items-center px-4 lg:px-10 py-20 gap-10'>
         <div className="basis-1/2 relative rounded-3xl overflow-hidden">
-            <Image src='/printAbout.jpg' width={2000} height={1859} alt='about image' objectFit='cover' /> 
+            <Image src='/aboutUsImg.jpg' width={2000} height={1866} alt='about image' objectFit='cover' /> 
         </div>
         <div className="mt-8 lg:mt-0 basis-1/2 flex flex-col">
             <div className="">

@@ -21,8 +21,6 @@ const Footer = () => {
                         <FacebookIcon className='w-5 h-5 text-muted-foreground' />
                         <XIcon className='w-5 h-5 text-muted-foreground' />
                         <InstagramIcon className='w-5 h-5 text-muted-foreground' />
-                        <DribbbleIcon className='w-5 h-5 text-muted-foreground' />
-                        <YoutubeIcon className='w-5 h-5 text-muted-foreground' />
                     </div>
                     <div className="hidden sm:flex items-center gap-2 mt-4">
                         <p className='text-base text-muted-foreground'>About</p>

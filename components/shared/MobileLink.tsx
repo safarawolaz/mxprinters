@@ -17,6 +17,7 @@ import {
 from '@/components/ui/sheet'
 import { cn } from '@/lib/utils'
 import { usePathname } from 'next/navigation'
+import Image from 'next/image'
 
 const links = [
     {
@@ -56,8 +57,8 @@ const MobileLink = () => {
                 <SheetDescription>
                     <div className="">
                         <SheetClose asChild>
-                        <Link href='/' className="text-2xl font-bold">
-                            M<span className='text-orange-700'>X</span> Printers
+                        <Link href='/' className="h-[48px] w-60 relative z-10">
+                            <Image src="/makhosi-logo.png" fill alt="logo"  />
                         </Link>
                         </SheetClose>
                     </div>

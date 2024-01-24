@@ -1,4 +1,5 @@
 import { LucideBookOpen, PawPrintIcon } from 'lucide-react'
+import Image from 'next/image'
 import React from 'react'
 
 const WhyUs = () => {
@@ -32,7 +33,9 @@ const WhyUs = () => {
                 </div>
             </div>
             <div className="basis-2/4 hidden md:flex justify-center ">
-                <div className="h-[350px] w-[350px] bg-gray-500 rounded-full"></div>
+                <div className="h-[350px] w-[350px] bg-gray-500 rounded-full relative overflow-hidden">
+                    <Image src="/attribImg.jpg" fill alt='attributes image' />
+                </div>
             </div>
             <div className="mt-20 md:mt-0 basis-1/4 w-full">
             <div className="">

@@ -11,34 +11,14 @@ const About = () => {
         </div>
         <div className="mt-8 lg:mt-0 basis-1/2 flex flex-col">
             <div className="">
-                <div className="flex items-center gap-2">
-                    <UserPlus2  className='w-5 h-5 text-[#db3a35]' />
-                    <p className='uppercase text-[#db3a35] font-base font-bold'>Who We Are</p>
-                </div>
-                <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-10 leading-[1.3]'>Leading Printing Agency in Mbombela</h3>
-                <p className='text-base text-muted-foreground mt-8 leading-[1.9]'>Welcome to Makhosi Production & Distribution (PTY) LTD, where innovation meets print. Elevate your brand with our cutting-edge printing solutions that transform ideas into tangible, vibrant realities. Discover the power of print with us!</p>
-                <Button className='text-sm bg-[#db3a35] text-white font-semibold rounded-full inline-block mt-8 w-max tracking-tight' size='lg'>MORE ABOUT US</Button>
-                <div className="mt-10">
-                    <div className="flex items-center gap-2 mt-4">
-                        <Milestone className='text-[#0e0322]' /> 
-                        <Button className='text-sm text-[#0e0322] font-bold border rounded-full' variant='ghost'>
-                            OUR MISSION AND PROMISE TO YOU
-                        </Button>
-                    </div>
-                    <div className="flex items-center gap-2 mt-4">
-                        <LucideActivity className='text-[#0e0322]' /> 
-                        <Button className='text-sm text-[#0e0322] font-bold border rounded-full' variant='ghost'>
-                            OBLIGATION VISION AND VALUES
-                        </Button>
-                    </div>
-                    <div className="flex items-center gap-2 mt-4">
-                        <LucideDiamond className='text-[#0e0322]' /> 
-                        <Button className='text-sm text-[#0e0322] font-bold border rounded-full' variant='ghost'>
-                            GUIDING PRINCIPLES
-                        </Button>
-                    </div>
-                    
-                </div>
+               
+                <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-10 leading-[1.3]'>Our Vision</h3>
+                <p className='text-base text-muted-foreground mt-4 leading-[1.9]'>To be a dynamic leader in total printing solutions in the printing industry</p>
+                <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-6 leading-[1.3]'>Our Mission</h3>
+                <p className='text-base text-muted-foreground mt-4 leading-[1.9]'>To develop and provide integrated promotions and implement an effective communication strategy for our customers and to render effective and qualitative services to our clients at all times regardless of social standing, color, race, gender and improve our earnings in a socially responsible manner</p>
+                <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-6 leading-[1.3]'>Background</h3>
+                <p className='text-base text-muted-foreground mt-4 leading-[1.9]'>Makhosi Production have experts who have extensive experience & knowledge in the industry. <br/>
+                The company mainly serves clientele in Government Departments, NGOs, private firms and individuals. Most of our work is around Mpumalanga Province but we intend to extend our reach to neighbouring provinces such as Limpopo, KZN and Gauteng. </p>
             </div>
         </div>
     </section>

@@ -42,7 +42,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <form className="py-20 my-20 mx-4 lg:mx-10 bg-[#faf1ef] rounded-3xl">
+            <form className="py-20 my-20 mx-4 lg:mx-10 bg-yellow-50 rounded-3xl">
               <div className="grid md:grid-cols-3 gap-8 px-4 lg:px-10">
                   <div className="basis-1/3 flex items-center relative" >
                       <input type='text' className='bg-white py-4 w-full rounded-xl px-4' placeholder='Name*' /> <User2Icon className='text-muted-foreground absolute right-4' />
