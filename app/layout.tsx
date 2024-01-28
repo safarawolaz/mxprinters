@@ -24,9 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${dmSans.variable} ${syne.variable}`}>
-        <Navbar />
-            {children}
-        <Footer />
+        <main className='max-w-[1440px] mx-auto'>
+          <Navbar />
+              {children}
+          <Footer />
+        </main>
       </body>
     </html>
   )

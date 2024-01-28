@@ -6,8 +6,8 @@ import React from 'react'
 const page = () => {
   return (
     <section>
-        <div className="px-4 lg:px-10">
-            <HeroSm header='Contact Us#' subHeader='Talk To Us' />
+        <div className="">
+            <HeroSm header='Contact Us.' subHeader='Talk To Us' />
         </div>
         <div className="w-full py-10 px-10 ">
               <div className="grid lg:grid-cols-3 gap-10">

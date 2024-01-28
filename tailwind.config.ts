@@ -17,7 +17,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        hero: 'url(/heroPrint.jpg)',
+        hero: 'url(/hero.jpg)',
+        heros: 'url(/heroSm.jpg)',
       },
       fontFamily: {
         dmSans: ['var(--font-dmSans)', 'sans-serif'],

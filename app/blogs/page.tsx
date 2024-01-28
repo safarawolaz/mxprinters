@@ -81,8 +81,9 @@ const blogsItems = [
 const blogs = (): any => {
   return (
     <section className='bg-50 min-h-screen'>
+      <HeroSm header='News & Insights#' subHeader='Read Latest News'/>
         <div className="px-4 lg:px-10">
-            <HeroSm header='News & Insights#' subHeader='Read Latest News'/>
+            
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 my-20">
                 {
                   blogsItems.map((blogItem, index) => 

@@ -9,7 +9,7 @@ const page = () => {
   return (
     <section>
         <div className="">
-            <HeroSm header='Our Services#' subHeader='All Services Offered' />
+            <HeroSm header='Our Services.' subHeader='All Services Offered' />
         </div>
         <Section1 />
         <Section2 />

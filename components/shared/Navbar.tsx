@@ -24,11 +24,6 @@ const links = [
         url: "/projects"
     },
     {
-        id: 4,
-        title: 'blogs',
-        url: "/blogs"
-    },
-    {
         id: 5,
         title: 'contact',
         url: "/contact"
@@ -38,11 +33,11 @@ const links = [
 const Navbar = () => {
     const pathname = usePathname()
   return (
-    <header className='sticky top-0 left-0 right-0 z-50'>
-        <div className='hidden lg:flex items-center py-2 justify-between px-10 bg-yellow-50'>
+    <header className='max-w-[1440px] mx-auto sticky top-0 z-40'>
+        <div className='hidden lg:flex items-center py-2 justify-between px-10 bg-neutral-100  z-10'>
             <div className="flex items-center">
-                <PhoneIncoming className='w-5 h-5 mr-2'  />
-               <p className='text-[##0e0322] font-semibold'> Printing Sales: <span className='text-muted-foreground font-semibold'>(+27)-79-614-3665</span>  Service:<span className='text-muted-foreground font-semibold'> (+27) 83-756-8968</span> </p>
+                <PhoneIncoming className='w-5 h-5 mr-2 text-[#4e4e4e]'  />
+               <p className='text-[#1b1b1b] font-semibold'> Printing Sales: <span className='text-[#4e4e4e] font-bold'>(+27)-79-614-3665</span>  Service:<span className='text-[#4e4e4e] font-bold'> (+27) 83-756-8968</span> </p>
             </div>
             <div className="flex gap-2 items-center">
                 <p className='font-semibold'>Follow on</p>
@@ -51,23 +46,23 @@ const Navbar = () => {
                 <a href="#"><InstagramIcon className='h-4 w-4 mr-4' /></a>
             </div>
         </div>
-        <nav className='flex items-center py-6 lg:py-0 px-4 lg:px-10 justify-between bg-white shadow-lg sticky top-0 left-0 right-0'>
+        <nav className='flex items-center py-6 lg:py-0 px-4 lg:px-10 justify-between bg-white shadow-lg  z-10'>
             <div className="flex gap-4  lg:gap-10 items-center">
                 <Link href='/' className="h-[48px] w-60 relative z-10">
                     <Image src="/makhosi-logo.png" fill alt="logo"  />
                 </Link>
-                <ul className='hidden lg:flex gap-4 xl:gap-8 items-center'>
+                <ul className='hidden lg:flex lg:gap-2 xl:gap-8 items-center'>
                     {
                         links.map(link => (
                     <li key={link.id} className={cn(
-                        'py-6 px-3 border-b-2 border-bg-transparent hover:border-[#dd0f08] transition-all',
+                        'py-6 px-3 border-b-2 border-bg-transparent hover:border-[#df332b] transition-all',
                             {
-                            'border-b-2 border-[#dd0f08]  transition-all' : pathname === link.url  ,
+                            'border-b-2 border-[#df332b]  transition-all' : pathname === link.url  ,
                             }
                         )}>
-                        <Link href={link.url} className={cn('uppercase font-bold text-base tracking-widest flex items-center text-[#0e0322] gap-1 hover:text-[#dd0f08] transition-all', 
+                        <Link href={link.url} className={cn('uppercase font-bold text-base tracking-tight flex items-center text-[#3a3a3a] gap-1 hover:text-[#df332b] transition-all', 
                             {
-                            'text-[#dd0f08] font-bold transition-all' : pathname === link.url, 
+                            'text-[#df332b] font-bold transition-all' : pathname === link.url, 
                             }) }>
                           {link.title}
                         </Link>
@@ -77,7 +72,7 @@ const Navbar = () => {
               
             </div>
             <div className="flex items-center gap-3">
-                <Button className='hidden sm:flex text-sm bg-[#dd0f08] text-white font-semibold tracking-widest rounded-full' size='lg'>GET A QUOTE</Button>
+                <Button className='hidden sm:flex text-sm bg-[#df332b] hover:bg-[#d31006] text-white font-semibold tracking-widest rounded-xl' size='lg'>GET A QUOTE</Button>
                 <MobileLink />
             </div>
         </nav>  

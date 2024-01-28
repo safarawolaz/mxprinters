@@ -5,11 +5,11 @@ type heroSmprops = {
 }
 const HeroSm = ({header, subHeader}: heroSmprops ) => {
   return (
-    <section className='min-h-[50vh]  lg:px-10 bg-yellow-50 flex flex-col items-center justify-center rounded-3xl'>
-        <h1 className="text-5xl font-bold text-gray-800 tracking-tight text-center">
+    <section className='min-h-[60vh]   bg-yellow-50 flex flex-col items-center justify-center  bg-heros bg-center bg-fixed pt-10'>
+        <h1 className="text-6xl font-bold text-[#e2e2f8] tracking-tight text-center">
             {header}
         </h1>
-        <p className="text-lg font-semibold text-gray-800 mt-4">{subHeader}</p>
+        <p className="text-lg font-semibold text-gray-200 mt-4">{subHeader}</p>
     </section>
   )
 }

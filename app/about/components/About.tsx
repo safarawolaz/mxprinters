@@ -1,15 +1,14 @@
 import { Button } from '@/components/ui/button'
-import { LucideActivity, LucideDiamond, Milestone, UserPlus2 } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
 const About = () => {
   return (
     <section className='w-full min-h-screen bg-white  lg:flex justify-center items-center px-4 lg:px-10 py-20 gap-10'>
-        <div className="basis-1/2 relative rounded-3xl overflow-hidden">
-            <Image src='/abtImg.jpg' width={2000} height={1814} alt='about image' objectFit='cover' /> 
+        <div className="w-1/2 h-full relative rounded-3xl overflow-hidden">
+            <Image src='/abtImg.jpg' width={1000} height={907} className='w-full h-full object-contain object-center' alt='about image' /> 
         </div>
-        <div className="mt-8 lg:mt-0 basis-1/2 flex flex-col">
+        <div className="mt-8 lg:mt-0 w-1/2 h-full flex flex-col">
             <div className="">
                
                 <h3 className='text-3xl text-[#0e0322] sm:text-4xl font-bold mt-10 leading-[1.3]'>Our Vision</h3>

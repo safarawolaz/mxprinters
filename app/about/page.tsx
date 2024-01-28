@@ -7,11 +7,11 @@ import About from './components/About'
 const page = () => {
   return (
     <section className=''>
-      <div className="px-4 lg:px-10">
-     <HeroSm header='About Us#' subHeader='More About Us'/>
+      <div className="">
+     <HeroSm header='About Us.' subHeader='More About Us'/>
      </div>
      <About />
-     <Stats />
+     {/* <Stats /> */}
      <WhyUs />
     </section>
   )

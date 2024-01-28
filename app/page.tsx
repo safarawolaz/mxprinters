@@ -17,10 +17,10 @@ import WhyUs from './langingPage/WhyUs'
 
 export default function Home() {
   return (
-    <>
+    <div className=''>
       <Hero />
       <Services />
-      <Stats />
+      {/* <Stats /> */}
       <WhoWeAre />
       <Categories />
       <Projects />
@@ -29,6 +29,6 @@ export default function Home() {
       <Blogs />
       <Contact />
       <SocialProof />
-    </>
+    </div>
   )
 }
