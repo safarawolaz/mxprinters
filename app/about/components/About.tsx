@@ -4,8 +4,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='w-full min-h-screen bg-white  lg:flex justify-center  px-4 lg:px-10 py-20 gap-10'>
-        <div className="basis-1/2 h-full relative rounded-3xl overflow-hidden">
+    <section className='w-full  bg-white  lg:flex justify-center  px-4 lg:px-10 py-10 lg:py-20 gap-10'>
+        <div className="basis-1/2 hidden lg:flex h-full relative rounded-3xl overflow-hidden">
             <Image src='/abtImg.jpg' width={1000} height={907} className='w-full h-full object-fit object-center' alt='about image' /> 
         </div>
         <div className="mt-8 lg:mt-0 basis-1/2 h-full flex flex-col">

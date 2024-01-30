@@ -5,15 +5,15 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <section className='w-full min-h-screen bg-white lg:flex justify-center items-center px-4 lg:px-10 py-20 gap-10'>
-        <div className="basis-1/2 relative rounded-3xl overflow-hidden">
+    <section className='w-full  bg-white lg:flex justify-center items-center px-4 lg:px-10 py-10 lg:py-20 gap-10'>
+        <div className="basis-1/2 relative rounded-3xl hidden lg:flex overflow-hidden">
             <Image src='/serviceImg1.jpg' width={2000} height={1830} alt='about image' objectFit='cover' /> 
         </div>
         <div className="basis-1/2 flex flex-col mt-4 md:mt-0">
             <div className="">
                 <div className="flex items-center gap-2">
-                    <UserCheck2  className='w-7 h-7 text-[#e6413b]' />
-                    <p className='uppercase text-[#e6413b] font-base font-bold'>Our Services</p>
+                    <UserCheck2  className='w-7 h-7 text-[#1b1b1b]' />
+                    <p className='uppercase text-[#1b1b1b] font-base font-bold'>Our Services</p>
                 </div>
                 <h3 className='text-3xl  sm:text-4xl font-bold mt-4 leading-[1.3]'>Our Comprehensive Solutions</h3>
                 <p className='text-base text-muted-foreground mt-4 md:leading-[1.9]'>We provide a range of services to our valued clients which are listed below.</p>
