@@ -5,19 +5,25 @@ const works = [
         icon1: <ArrowRight />,
         icon2: <Printer />,
         heading: "Printing Services",
-        desc: "From business cards to large-format banners, our attention to detail and precision craftsmanship set us apart."
+        desc: "We print Flyers, Posters, Brochures, Business Cards, Calenders etc."
     },
     {
         icon1: <ArrowRight />,
         icon2: <PenBoxIcon />,
-        heading: "Design Services",
-        desc: "We transform concepts into visually striking designs that perfectly complement your brand identity.."
+        heading: "Graphic Design",
+        desc: "We design Logos, Social Media Adverts, Posters, Flyers, Company Profiles etc ."
     },
     {
         icon1: <ArrowRight />,
         icon2: <LucideGift />,
-        heading: "Promotional Products",
-        desc: "Elevate your brand with our extensive range of promotional products. From branded merchandise to promotional giveaways."
+        heading: "Promo Products",
+        desc: "We do products such as Coffee Mugs, Pens, Caps, Badges, Paper Bags etc"
+    },
+    {
+        icon1: <ArrowRight />,
+        icon2: <LucideGift />,
+        heading: "Branding",
+        desc: "Car Branding, Sign Boards, T-Shirts, Banners etc"
     },
 ]
 
@@ -29,21 +35,21 @@ const Services = () => {
             <PawPrintIcon className='w-7 h-7 text-[#1b1b1b]' />
             <p className='text-base font-bold uppercase text-[#1b1b1b]'>what we do</p>
         </div>
-        <h3 className='text-3xl sm:text-4xl font-bold mt-4 tracking-wide  text-center text-[#1b1b1b]'>Quality Printing & </h3>
-        <h3 className='text-3xl sm:text-4xl font-bold   tracking-wide  text-center text-[#1b1b1b] mt-0'>Promotional Products Company </h3>
+        <h3 className='text-3xl sm:text-4xl font-bold mt-4 tracking-wide  text-center text-[#1b1b1b]'>Quality Printing, Branding </h3>
+        <h3 className='text-3xl sm:text-4xl font-bold   tracking-wide  text-center text-[#1b1b1b] mt-0'>Design & Promotional Products </h3>
         <p className='text-base text-muted-foreground font-medium mt-4 text-center'>Elevate your brand, captivate your audience, and bring your ideas to life with <br /> our exceptional design & printing services</p>
 
-        <div className="mt-10 sm:flex gap-10">
+        <div className="mt-10 sm:grid sm:grid-cols-2  lg:grid-cols-4 gap-4">
             {
                 works.map(work =>    
-                    <div className="p-6 sm:p-10 bg-yellow-100 rounded-xl basis-1/3">
+                    <div className="mt-4 sm:mt-0 p-6 bg-neutral-100 rounded-xl basis-1/3">
                         <div className="flex justify-between">
-                            <div className="flex items-center justify-center w-12 h-12 bg-yellow-50 rounded-full">
+                            <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full">
                                 <div className="w-7 h-7">
                                     {work.icon1}
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center w-20 h-20 bg-white rounded-full ">
+                            <div className="flex items-center justify-center w-14 h-14 bg-white rounded-full ">
                                 <div className="">
                                     {work.icon2}
                                 </div>

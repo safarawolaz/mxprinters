@@ -1,12 +1,16 @@
 
-// import { Button } from '../ui/button'
+import { Button } from '../ui/button'
 
-// const Btn = ({children}: String) => {
-//   return (
-//     <Button>
-//         {children}
-//     </Button>
-//   )
-// }
+type textProps = {
+    text: string,
+}
 
-// export default Btn
+const Btn = ({text}: textProps) => {
+  return (
+    <Button className='text-base bg-[#df332b] hover:bg-[#d31006]   text-white font-semibold tracking-widest rounded-xl uppercase' size='lg'>
+        {text}
+    </Button>
+  )
+}
+
+export default Btn

@@ -4,7 +4,7 @@ import React from 'react'
 
 const WhyUs = () => {
   return (
-    <section className='w-full min-h-screen bg-yellow-50  flex flex-col justify-center items-center px-4 md:px-10 py-20'>
+    <section className='w-full min-h-screen bg-neutral-100  flex flex-col justify-center items-center px-4 md:px-10 py-20'>
          <div className="flex items-center gap-2">
             <PawPrintIcon className='w-7 h-7 text-[#1b1b1b]' />
             <p className='text-base font-bold uppercase text-[#1b1b1b]'>our attributes</p>

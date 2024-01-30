@@ -27,7 +27,7 @@ export default function Home() {
       <WhyUs />
       <Testimonials />
       <Blogs />
-      <Contact />
+      {/* <Contact /> */}
       <SocialProof />
     </div>
   )

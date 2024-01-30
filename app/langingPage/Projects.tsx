@@ -1,3 +1,4 @@
+import Btn from '@/components/shared/Btn'
 import { Button } from '@/components/ui/button'
 import { LucideAward, StarIcon } from 'lucide-react'
 import Image from 'next/image'
@@ -10,13 +11,11 @@ const Projects = () => {
             <LucideAward className='w-7 h-7 text-[#1b1b1b]' />
             <p className='uppercase text-base text-[#1b1b1b] font-bold'>Our Work</p>
         </div>
-        <div className="mt-2 flex justify-between items-center">
+        <div className="mt-2 flex  items-center">
             <div>
                 <h3 className='text-3xl text-[#1b1b1b] sm:text-4xl font-bold'>Our Recent Work</h3>
             </div>
-            <div className=''>
-                <Button className='text-sm bg-[#db3a35] text-white font-semibold rounded-full mt-8 w-max tracking-tight my-auto' size='lg' >MORE WORK</Button>
-            </div>
+            
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 h-[3100px] sm:h-[900px] gap-8 mt-10">

@@ -32,14 +32,10 @@ const links = [
     },
     {
         id: 3,
-        name: 'projects',
+        name: 'our work',
         url: '/projects'
     },
-    {
-        id: 4,
-        name: 'blogs',
-        url: '/blogs'
-    },
+    
     {
         id: 5,
         name: 'contact',

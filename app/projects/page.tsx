@@ -5,7 +5,7 @@ const projects = () => {
   return (
     <section>
         <div className="">
-            <HeroSm  header='Our Projects.' subHeader='Some of Our Work'/>
+            <HeroSm  header='Our Work.' subHeader='Some of Our Work'/>
         </div>
         <Projects />
     </section>

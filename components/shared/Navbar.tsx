@@ -20,7 +20,7 @@ const links = [
     },
     {
         id: 3,
-        title: 'projects',
+        title: 'our work',
         url: "/projects"
     },
     {
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className='hidden lg:flex items-center py-2 justify-between px-10 bg-neutral-100  z-10'>
             <div className="flex items-center">
                 <PhoneIncoming className='w-5 h-5 mr-2 text-[#4e4e4e]'  />
-               <p className='text-[#1b1b1b] font-semibold'> Printing Sales: <span className='text-[#4e4e4e] font-bold'>(+27)-79-614-3665</span>  Service:<span className='text-[#4e4e4e] font-bold'> (+27) 83-756-8968</span> </p>
+               <p className='text-[#1b1b1b] font-semibold'> Printing Sales: <span className='text-[#4e4e4e] font-bold'>(+27)-79-614-3665</span>  Service:<span className='text-[#4e4e4e] font-bold'> (+27) 71-035-8907</span> </p>
             </div>
             <div className="flex gap-2 items-center">
                 <p className='font-semibold'>Follow on</p>
@@ -72,7 +72,9 @@ const Navbar = () => {
               
             </div>
             <div className="flex items-center gap-3">
-                <Button className='hidden sm:flex text-sm bg-[#df332b] hover:bg-[#d31006] text-white font-semibold tracking-widest rounded-xl' size='lg'>GET A QUOTE</Button>
+                <Link href='/contact'>
+                    <Button className='hidden sm:flex text-sm bg-[#df332b] hover:bg-[#d31006] text-white font-semibold tracking-widest rounded-xl' size='lg'>GET A QUOTE</Button>
+                </Link>
                 <MobileLink />
             </div>
         </nav>  
