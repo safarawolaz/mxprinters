@@ -42,7 +42,7 @@ const Services = () => {
         <div className="mt-10 sm:grid sm:grid-cols-2  lg:grid-cols-4 gap-4">
             {
                 works.map(work =>    
-                    <div className="mt-4 sm:mt-0 p-6 bg-neutral-100 rounded-xl basis-1/3">
+                    <div className="mt-4 sm:mt-0 p-6 bg-neutral-100 rounded-xl basis-1/3}" key={work.heading}>
                         <div className="flex justify-between">
                             <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full">
                                 <div className="w-7 h-7">
